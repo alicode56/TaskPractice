@@ -24,7 +24,7 @@ export default function ContactList() {
       imageUrl: 'https://avatars.githubusercontent.com/u/583231?v=4',
       phone: '555-555-5555',
     },
-      {
+    {
       uid: 4,
       name: 'Jane Smith',
       status: 'web developer',
@@ -66,7 +66,6 @@ const styles = StyleSheet.create({
     padding: 12,
     backgroundColor: '#961e1e',
     borderRadius: 12,
-    
   },
   userImage: {
     width: 50,
@@ -78,9 +77,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   userName: {
-    fontWeight:'600',
+    fontWeight: '600',
     fontSize: 16,
-
   },
   userPhone: {
     fontSize: 14,

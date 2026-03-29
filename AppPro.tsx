@@ -5,18 +5,26 @@ import ElevatedCards from './components/ElevatedCards';
 import FancyCards from './components/FancyCards';
 import ActionCards from './components/ActionCards';
 import ContactList from './components/ContactList';
+import YupSchema from './components/YupSchema';
+
 
 const AppPro = () => {
   return (
+
+    //here commit all import screens bcz working on new screen or new projects so when working new thne fisrt one commit
     <SafeAreaView>
       <ScrollView>
-        {/* <Text>AppPro</Text> */}
-        <FlatCards />
+        
+         {/* <FlatCards />
         <ElevatedCards />
         <FancyCards />
-        {/* <FancyCards/> */}
         <ContactList />
-        <ActionCards />
+       <ActionCards />  */}
+
+       <YupSchema />
+
+        
+    
       </ScrollView>
     </SafeAreaView>
   );
