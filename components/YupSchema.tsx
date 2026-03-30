@@ -53,7 +53,10 @@ export default function YupSchema() {
 
     // Check if at least one character type is selected
     if (charactersList.length === 0) {
-      Alert.alert('Error', 'Please select at least one character type (uppercase, lowercase, numeric, or symbols)');
+      Alert.alert(
+        'Error',
+        'Please select at least one character type (uppercase, lowercase, numeric, or symbols)',
+      );
       return;
     }
 
@@ -195,7 +198,6 @@ export default function YupSchema() {
                     <Text style={styles.generatedPassword}>{password}</Text>
                   </View>
                 )}
-               
               </>
             )}
           </Formik>
@@ -332,5 +334,4 @@ const styles = StyleSheet.create({
     color: '#555',
     marginBottom: 14,
   },
-
 });
