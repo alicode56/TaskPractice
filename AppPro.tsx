@@ -9,12 +9,15 @@ import YupSchema from './components/YupSchema';
 import DebugApp4 from './components/DebugApp4';
 import MApView from './components/MApView';
 import Notifee from './components/Notifee';
-
+import DropDown from './components/DropDown';
+import SearchBar from './components/SearchBar';
 
 const AppPro = () => {
   return (
-//<Notifee/>
-   <MApView/>
+//  <Notifee/> 
+<SearchBar/>
+
+  //<MApView/>
     //<DebugApp4/>
 
     //here commit all import screens bcz working on new screen or new projects so when working new thne fisrt one commit

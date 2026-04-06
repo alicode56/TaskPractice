@@ -5,7 +5,7 @@ import MapView, { Marker } from 'react-native-maps';
 const MApView = () => {
   return (
     <View style={styles.container}>
-      <MapView
+      <MapViewg
         style={styles.map}
         initialRegion={{
           latitude: 31.5204,
