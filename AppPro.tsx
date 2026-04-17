@@ -11,12 +11,15 @@ import MApView from './components/MApView';
 import Notifee from './components/Notifee';
 import DropDown from './components/DropDown';
 import SearchBar from './components/SearchBar';
+import TicTocToeApp from './components/TicTocToeApp/TicTocToeApp';
 
 const AppPro = () => {
   return (
 //  <Notifee/> 
 //<SearchBar/>
-<DropDown/>
+//<DropDown/>
+
+<TicTocToeApp/>
   //<MApView/>
     //<DebugApp4/>
 
